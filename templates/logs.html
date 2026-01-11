@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="logs-container">
+
+  <!-- Barra superior -->
+  <div class="logs-toolbar">
+    <h2>Call Logs</h2>
+
+    <button id="toggleLogs" class="btn secondary">
+      Alternar modo técnico
+    </button>
+  </div>
+
+  <!-- Parte superior: logs textuais -->
+  <div class="logs-top technical" id="log-content">
+    <div class="log-line">
+      [INFO] Aguardando eventos do Asterisk...
+    </div>
+  </div>
+
+  <!-- Parte inferior: áudios de broadcast -->
+  <div class="logs-bottom">
+    <h3>Broadcast Audios</h3>
+
+    <div class="audio-message">
+      <button class="btn play">▶</button>
+
+      <div class="audio-bar">
+        <div class="progress"></div>
+      </div>
+
+      <span class="time">0:03 / 01:12</span>
+    </div>
+  </div>
+
+</section>
+
+{% endblock %}

@@ -1,0 +1,260 @@
+/* =====================
+   THEME VARIABLES
+===================== */
+:root {
+  --bg: #f2f2f7;
+  --panel: #ffffff;
+  --text: #333;
+  --muted: #777;
+  --header: #5b2b82;
+  --accent: #7a4ba6;
+  --danger: #c0392b;
+  --warning: #f39c12;
+  --border: #ddd;
+}
+
+body.dark {
+  --bg: #121212;
+  --panel: #1e1e1e;
+  --text: #eee;
+  --muted: #aaa;
+  --header: #2c1442;
+  --accent: #8e5bbf;
+  --border: #333;
+}
+
+/* =====================
+   GLOBAL
+===================== */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* =====================
+   HEADER / TABS
+===================== */
+header {
+  background: var(--header);
+  padding: 10px 10px 0;
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.tab {
+  background: var(--accent);
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px 8px 0 0;
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+.tab a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.tab.active {
+  background: var(--panel);
+  color: var(--text);
+  opacity: 1;
+  font-weight: bold;
+}
+
+#themeToggle {
+  margin-left: auto;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.6s;
+}
+
+/* =====================
+   BUTTONS
+===================== */
+button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: white;
+}
+
+.btn-danger {
+  background: var(--danger);
+  color: white;
+}
+
+.btn-warning {
+  background: var(--warning);
+  color: white;
+}
+
+.btn-ghost {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+
+/* =====================
+   MAIN
+===================== */
+main {
+  flex: 1;
+  background: var(--panel);
+  border-top: 2px solid var(--header);
+  overflow: hidden;
+}
+
+.view {
+  display: none;
+  height: 100%;
+}
+
+.view.active {
+  display: flex;
+}
+
+/* =====================
+   LOGS
+===================== */
+.logs-view {
+  flex-direction: column;
+}
+
+.logs-toolbar {
+  padding: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.logs-top,
+.logs-bottom {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background: #f7f7f7;
+  font-size: 14px;
+}
+
+body.dark .logs-top,
+body.dark .logs-bottom {
+  background: #181818;
+}
+
+.technical {
+  background: #111 !important;
+  color: #00ff88 !important;
+  font-family: monospace;
+}
+
+.section-title {
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+/* =====================
+   AUDIO BUBBLE
+===================== */
+.audio-bubble {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 420px;
+}
+
+.progress {
+  flex: 1;
+  height: 6px;
+  background: var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress div {
+  width: 20%;
+  height: 100%;
+  background: var(--accent);
+}
+
+/* =====================
+   VOICEMAIL
+===================== */
+.voicemail-view {
+  display: flex;
+}
+
+.user-list {
+  width: 240px;
+  border-right: 1px solid var(--border);
+  background: #fafafa;
+}
+
+body.dark .user-list {
+  background: #1a1a1a;
+}
+
+.user {
+  padding: 12px;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+}
+
+.user.active {
+  background: rgba(122, 75, 166, 0.2);
+  font-weight: bold;
+}
+
+.user-actions {
+  margin-top: 6px;
+  display: flex;
+  gap: 6px;
+}
+
+.voicemail-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.voicemail {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+/* =====================
+   SETTINGS
+===================== */
+.settings-view {
+  padding: 20px;
+}
+
+input,
+select {
+  padding: 8px;
+  width: 300px;
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
