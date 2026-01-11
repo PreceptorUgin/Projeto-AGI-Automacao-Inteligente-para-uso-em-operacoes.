@@ -1,0 +1,11 @@
+services:
+  asterisk:
+    build: ./docker
+    container_name: asterisk
+    volumes:
+      - ./asterisk/etc:/etc/asterisk
+      - ./asterisk/agi:/var/lib/asterisk/agi-bin
+      - ./asterisk/logs:/var/log/asterisk
+    ports:
+      - "5060:5060/udp"
+      - "10000-20000:10000-20000/udp"
