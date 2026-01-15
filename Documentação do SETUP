@@ -1,0 +1,119 @@
+8. SETUP DO AMBIENTE (PASSO A PASSO)
+
+Esta seção descreve, de forma objetiva, todos os passos necessários para preparar e executar o ambiente do projeto, partindo de um sistema limpo com Docker instalado.
+
+* 8.1 Pré-requisitos no Host
+
+Antes de iniciar, certifique-se de que o host possui:
+
+- Docker Engine instalado e em execução;
+- Permissão para executar comandos Docker (usuário no grupo docker ou uso de sudo);
+- Conectividade de rede local ativa.
+- Não é necessário instalar Asterisk, Python ou qualquer dependência VoIP diretamente no host.
+
+* 8.2 Obtenção do Projeto
+
+- Copie ou clone o projeto para o host:
+- O diretório do projeto pode estar em qualquer local do sistema;
+- Recomenda-se evitar caminhos com espaços.
+
+* Estrutura esperada:
+
+projeto-roip/
+├── docker/
+│   └── Dockerfile
+├── asterisk/
+├── agi/
+└── README.md
+
+* 8.3 Build da Imagem Docker
+
+A partir do diretório raiz do projeto, execute o comando de build:
+
+- docker build -t asterisk-roip ./docker
+
+Este processo irá:
+
+- Baixar a imagem base;
+- Instalar o Asterisk;
+- Instalar o Python e dependências do AGI;
+- Copiar arquivos de configuração e scripts;
+- Preparar o ambiente para execução.
+- Ao final, a imagem asterisk-roip estará disponível localmente.
+
+* 8.4 Criação e Execução do Container
+
+Execute o container com o seguinte comando:
+
+docker run -d \
+  --name asterisk-roip \
+  -p 5060:5060/udp \
+  -p 10000-20000:10000-20000/udp \
+  asterisk-roip
+
+Parâmetros relevantes:
+
+- Porta 5060/UDP: sinalização SIP;
+- Portas 10000–20000/UDP: mídia RTP;
+- Container executa o Asterisk em foreground.
+
+* 8.5 Verificação do Funcionamento do Asterisk
+
+Para acessar o console do Asterisk:
+
+- docker exec -it asterisk-roip asterisk -rvvv
+
+Verificações básicas:
+
+- Asterisk iniciado sem erros críticos;
+
+Módulos SIP carregados;
+
+- Dialplan carregado corretamente;
+- Scripts AGI acessíveis.
+
+* 8.6 Configuração dos Softphones
+
+Em cada softphone SIP:
+
+- Servidor: IP do host Docker;
+- Porta: 5060;
+- Usuário e senha: conforme definidos em sip.conf;
+- Transporte: UDP.
+- Cada softphone representa um "rádio IP" dentro do sistema.
+
+* 8.7 Entrada em Grupos de Comunicação
+
+- Os grupos são definidos no dialplan do Asterisk.
+- Cada grupo possui um número de acesso;
+- Ao discar o número do grupo, o usuário entra na comunicação coletiva;
+- O áudio é distribuído para todos os membros conectados.
+
+* 8.8 Controle de Prioridade de Fala
+
+O controle de quem pode transmitir áudio é realizado por:
+
+- Filas lógicas no Asterisk;
+- Scripts AGI em Python;
+- Política de um transmissor por vez (half-duplex).
+- Usuários aguardam sua vez de falar conforme a prioridade definida.
+
+* 8.9 Monitoramento Básico
+
+O acompanhamento do sistema pode ser feito por:
+
+- Logs do Asterisk no console;
+- Saída padrão dos scripts AGI;
+- Mensagens de entrada e saída de usuários dos grupos.
+
+* 8.10 Encerramento do Ambiente
+
+Para parar o container:
+
+- docker stop asterisk-roip
+
+Para remover o container:
+
+- docker rm asterisk-roip
+
+A imagem pode ser reutilizada sem necessidade de novo build.
