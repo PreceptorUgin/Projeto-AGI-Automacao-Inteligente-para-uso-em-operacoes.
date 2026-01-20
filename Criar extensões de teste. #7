@@ -1,0 +1,25 @@
+# DISCAGEM DE TESTE 
+
+[testes]
+exten => 999,1,Answer()
+ same => n,Playback(demo-echotest)
+ same => n,Echo()
+ same => n,Hangup()
+
+# EXTENSOES PARA CHAMADAS DOS GRUPOS 
+# PODEMOS ADICIONAR MAIS GRUPOS 
+
+[grupo1]
+exten => _10XX,1,NoOp(Chamada interna Grupo 1 - Ramal ${EXTEN})
+ same => n,Dial(PJSIP/${EXTEN},20)
+ same => n,Hangup() 
+
+[grupo2]
+exten => _20XX,1,NoOp(Chamada interna Grupo 2 - Ramal ${EXTEN})
+ same => n,Dial(PJSIP/${EXTEN},20)
+ same => n,Hangup()
+
+[grupo3]
+exten => _30XX,1,NoOp(Chamada interna Grupo 3 - Ramal ${EXTEN})
+ same => n,Dial(PJSIP/${EXTEN},20)
+ same => n,Hangup()
