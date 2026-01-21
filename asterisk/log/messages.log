@@ -279,3 +279,6 @@
 [Jan 20 16:26:06] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
 [Jan 20 16:26:06] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
 [Jan 20 16:26:06] WARNING[307] pbx_config.c: users.conf is deprecated and will be removed in a future version of Asterisk
+[Jan 20 18:37:49] NOTICE[9805] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Jan 20 22:40:38] NOTICE[16726] app_queue.c: queuerules.conf has not changed since it was last loaded. Not taking any action.
+[Jan 21 00:10:47] NOTICE[23319] sorcery.c: Type 'system' is not reloadable, maintaining previous values
