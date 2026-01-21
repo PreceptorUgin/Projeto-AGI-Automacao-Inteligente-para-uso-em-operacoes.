@@ -282,3 +282,42 @@
 [Jan 20 18:37:49] NOTICE[9805] sorcery.c: Type 'system' is not reloadable, maintaining previous values
 [Jan 20 22:40:38] NOTICE[16726] app_queue.c: queuerules.conf has not changed since it was last loaded. Not taking any action.
 [Jan 21 00:10:47] NOTICE[23319] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Jan 21 19:29:30] Asterisk 22.7.0 built by root @ buildkitsandbox on a x86_64 running Linux on 2026-01-14 08:05:57 UTC
+[Jan 21 19:29:30] NOTICE[1] loader.c: 336 modules will be loaded.
+[Jan 21 19:29:30] NOTICE[1] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Jan 21 19:29:30] ERROR[1] res_config_ldap.c: No directory URL or host found.
+[Jan 21 19:29:30] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Jan 21 19:29:30] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database user found, using 'asterisk' as default.
+[Jan 21 19:29:30] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database password found, using 'asterisk' as default.
+[Jan 21 19:29:30] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database host found, using localhost via socket.
+[Jan 21 19:29:30] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database name found, using 'asterisk' as default.
+[Jan 21 19:29:30] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database port found, using 5432 as default.
+[Jan 21 19:29:30] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database socket found, using '/tmp/.s.PGSQL.5432' as default.
+[Jan 21 19:29:30] ERROR[1] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on : 
+[Jan 21 19:29:30] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Jan 21 19:29:30] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Jan 21 19:29:30] NOTICE[1] indications.c: Default country for indication tones: us
+[Jan 21 19:29:30] NOTICE[1] indications.c: Setting default indication country to 'us'
+[Jan 21 19:29:30] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Jan 21 19:29:30] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Jan 21 19:29:30] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Jan 21 19:29:30] ERROR[1] config_options.c: Required match field 'type' not found
+[Jan 21 19:29:30] ERROR[1] config_options.c: Could not find config type for category 'geral' in 'confbridge.conf'
+[Jan 21 19:29:30] ERROR[1] app_confbridge.c: Unable to load config. Not loading module.
+[Jan 21 19:29:30] WARNING[1] cel_pgsql.c: CEL pgsql config file missing global section.
+[Jan 21 19:29:30] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Jan 21 19:29:30] NOTICE[1] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Jan 21 19:29:30] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 196-196: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[Jan 21 19:29:30] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 209-209: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[Jan 21 19:29:30] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 328-328: macro call to ael-std-exten-ael cannot be found in the AEL code!
+[Jan 21 19:29:30] WARNING[1] loader.c: Some non-required modules failed to load.
+[Jan 21 19:29:30] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Jan 21 19:29:30] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Jan 21 19:29:30] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Jan 21 19:29:31] ERROR[1] loader.c: Error loading module 'format_ogg_vorbis.so': libvorbisenc.so.2: cannot open shared object file: No such file or directory
+[Jan 21 19:29:31] ERROR[1] loader.c: app_confbridge declined to load.
+[Jan 21 19:29:31] ERROR[1] loader.c: Declined modules which depend on app_confbridge: app_page
+[Jan 21 19:29:31] ERROR[1] loader.c: cdr_pgsql declined to load.
+[Jan 21 19:29:31] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Jan 21 19:29:31] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Jan 21 19:29:31] WARNING[11] pbx_config.c: users.conf is deprecated and will be removed in a future version of Asterisk
