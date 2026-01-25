@@ -1,0 +1,32 @@
+🧩 Estrutura por grupo
+
+Cada grupo de comunicação terá:
+
+(ELEMENTO)	    (EXEMPLO)
+
+Grupo	          GRP_ALPHA
+Queue	          queue-alpha
+Bridge/Conf	    conf-alpha
+Contexto	      radio-alpha
+
+# CONFIGURAÇÃO DA FILA 
+
+[queue-alpha]
+musicclass=none
+strategy=ringall
+timeout=0
+retry=1
+maxlen=0
+joinempty=yes
+leavewhenempty=no
+ringinuse=no
+weight=10
+
+# DIALPLAN BASE 
+
+[radio-alpha]
+exten => _X.,1,NoOp(Usuario ${CALLERID(num)} solicitou fala no GRP_ALPHA)
+ same => n,AGI(radio_control.py,GRP_ALPHA)
+ same => n,Hangup()
+
+
