@@ -1,20 +1,5 @@
 Docker FILE
 
-
-
- ESTRUTURA DO PROJETO 
-
-voip-agi-project/
-├── Dockerfile
-├── config/
-│   ├── sip.conf
-│   ├── extensions.conf
-│   ├── queues.conf
-│   └── modules.conf
-├── agi/
-│   └── prioridade.py
-└── sounds/
-
 FROM debian:12-slim
 
 LABEL maintainer="Projeto VoIP AGI"
@@ -71,13 +56,4 @@ docker run -d \
   -v ./config:/etc/asterisk \
   -v ./sounds:/var/lib/asterisk/sounds \
 
-  asterisk-agi
-
-Exemplo de Uso no Dialplan
-[voip-prioridade]
-
-exten => 9000,1,Answer()
- same => n,AGI(prioridade.py)
- same => n,Queue(suporte)
- same => n,Hangup()
 
