@@ -7,7 +7,7 @@ Cada grupo de comunicação terá:
 Grupo	          GRP_ALPHA
 Queue	          queue-alpha
 Bridge/Conf	    conf-alpha
-Contexto	      radio-alpha
+Contexto	       radio-alpha
 
 # CONFIGURAÇÃO DA FILA 
 
@@ -28,5 +28,53 @@ weight=10
 exten => _X.,1,NoOp(Usuario ${CALLERID(num)} solicitou fala no GRP_ALPHA)
  same => n,AGI(radio_control.py,GRP_ALPHA)
  same => n,Hangup()
+
+# Identificando usuário e grupo
+
+grupo = sys.argv[1]
+usuario = agi.env['agi_callerid']
+
+# Verifica se alguém esta falando 
+
+falando = agi.get_variable(f"RADIO_{grupo}_ACTIVE")
+
+
+# Se ninguém estiver falando 
+
+agi.set_variable(f"RADIO_{grupo}_ACTIVE", usuario)
+agi.exec_command("ConfBridge", f"{grupo},talker")
+
+
+# Se já existe alguém falando
+
+agi.exec_command("Queue", f"queue-{grupo.lower()}")
+
+(CONTROLE DE PRIORIDADE)
+
+Critério	         Implementação
+
+Cargo	            QUEUE_PRIO=10
+Tipo de usuário	  Supervisor > operador
+Emergência	       Override de fila
+Tempo de espera	  Ajuste dinâmico
+Botão PTT	        DTMF ativa fala
+
+
+if usuario in SUPERVISORES:
+    agi.set_variable("QUEUE_PRIO", "10")
+else:
+    agi.set_variable("QUEUE_PRIO", "1")
+
+
+BOTÃO PTT: 
+
+Quando o transmissor:
+Desliga
+Pressiona DTMF
+Estoura timeout
+
+O AGI :
+
+agi.set_variable(f"RADIO_{grupo}_ACTIVE", "")
 
 
