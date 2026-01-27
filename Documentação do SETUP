@@ -78,7 +78,7 @@ Em cada softphone SIP:
 
 - Servidor: IP do host Docker;
 - Porta: 5060;
-- Usuário e senha: conforme definidos em sip.conf;
+- Usuário e senha: conforme definidos em pjsip.conf;
 - Transporte: UDP.
 - Cada softphone representa um "rádio IP" dentro do sistema.
 
