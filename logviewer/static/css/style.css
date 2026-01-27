@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background: #0b0b0b;
+  color: #00ff66;
+  font-family: monospace;
+}
+
+.header {
+  padding: 10px;
+  background: #111;
+  border-bottom: 1px solid #333;
+}
+
+.log-container {
+  height: calc(100vh - 50px);
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+pre {
+  margin: 0;
+  height: 100%;
+  overflow-y: auto;
+  white-space: pre-wrap;
+}
