@@ -1,0 +1,81 @@
+#!/usr/bin/env python3
+import sys
+import time
+import json
+import os
+
+STATE_DIR = "/tmp/roip"
+LOG_FILE = "/var/log/asterisk/roip.log"
+
+os.makedirs(STATE_DIR, exist_ok=True)
+
+def log(line):
+    with open(LOG_FILE, "a") as f:
+        f.write(line + "\n")
+
+def now():
+    return int(time.time())
+
+# -----------------------------
+# Argumentos vindos do Asterisk
+# -----------------------------
+event   = sys.argv[1]
+conf    = sys.argv[2]
+caller  = sys.argv[3]
+session = sys.argv[4]
+
+session_file = "{}/session_{}.json".format(STATE_DIR, session)
+
+# ---------- JOIN ----------
+if event == "join":
+    data = {
+        "session": session,
+        "conf": conf,
+        "caller": caller,
+        "join_time": now(),
+        "leave_time": None,
+        "duration": None
+    }
+
+    with open(session_file, "w") as f:
+        json.dump(data, f)
+
+    log("JOIN | conf={} | caller={} | session={}".format(
+        conf, caller, session
+    ))
+
+# ---------- LEAVE / HANGUP ----------
+elif event in ("leave", "hangup"):
+    if os.path.exists(session_file):
+        with open(session_file) as f:
+            data = json.load(f)
+
+        # sessao ja encerrada
+        if data.get("leave_time") is not None:
+            log(
+                "IGNORED | conf={} | caller={} | session={} | already_closed | type={}".format(
+                    conf, caller, session, event
+                )
+            )
+            sys.exit(0)
+
+        data["leave_time"] = now()
+        data["duration"] = data["leave_time"] - data["join_time"]
+
+        with open(session_file, "w") as f:
+            json.dump(data, f)
+
+        log(
+            "LEAVE | conf={} | caller={} | session={} | duration={}s | type={}".format(
+                conf, caller, session, data["duration"], event
+            )
+        )
+    else:
+        log(
+            "FAILSAFE | conf={} | caller={} | session={} | no_session_file".format(
+                conf, caller, session
+            )
+        )
+
+sys.exit(0)
+
