@@ -18,3 +18,15 @@ services:
     environment:
       - TZ=America/Fortaleza
 
+  asterisk-web:
+    build: ./asterisk_web
+    container_name: asterisk-web
+    
+    ports:
+      - "8080:8080"
+    
+    volumes:
+      - ./asterisk/logs:/var/log/asterisk:ro
+    
+    depends_on:
+      - asterisk
