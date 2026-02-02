@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% set active = "voicemail" %}
+
+{% block content %}
+<div class="voicemail-view">
+
+  <div class="user-list">
+    <div class="user active">
+      John Doe
+      <div class="user-actions">
+        <button class="btn-danger">Ban</button>
+        <button class="btn-warning">Mute</button>
+      </div>
+    </div>
+
+    <div class="user">
+      Maria Silva
+      <div class="user-actions">
+        <button class="btn-danger">Ban</button>
+        <button class="btn-warning">Mute</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="voicemail-content">
+    <h3>Voicemails from John Doe</h3>
+
+    <div class="voicemail">
+      📞 2025-01-02 09:30<br>
+      ▶ Play voicemail
+    </div>
+
+    <div class="voicemail">
+      📞 2025-01-01 16:10<br>
+      ▶ Play voicemail
+    </div>
+  </div>
+
+</div>
+{% endblock %}
