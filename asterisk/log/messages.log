@@ -279,3 +279,937 @@
 [Jan 20 16:26:06] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
 [Jan 20 16:26:06] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
 [Jan 20 16:26:06] WARNING[307] pbx_config.c: users.conf is deprecated and will be removed in a future version of Asterisk
+[Jan 20 18:37:49] NOTICE[9805] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Jan 20 22:40:38] NOTICE[16726] app_queue.c: queuerules.conf has not changed since it was last loaded. Not taking any action.
+[Jan 21 00:10:47] NOTICE[23319] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[Jan 21 19:29:30] Asterisk 22.7.0 built by root @ buildkitsandbox on a x86_64 running Linux on 2026-01-14 08:05:57 UTC
+[Jan 21 19:29:30] NOTICE[1] loader.c: 336 modules will be loaded.
+[Jan 21 19:29:30] NOTICE[1] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Jan 21 19:29:30] ERROR[1] res_config_ldap.c: No directory URL or host found.
+[Jan 21 19:29:30] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Jan 21 19:29:30] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database user found, using 'asterisk' as default.
+[Jan 21 19:29:30] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database password found, using 'asterisk' as default.
+[Jan 21 19:29:30] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database host found, using localhost via socket.
+[Jan 21 19:29:30] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database name found, using 'asterisk' as default.
+[Jan 21 19:29:30] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database port found, using 5432 as default.
+[Jan 21 19:29:30] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database socket found, using '/tmp/.s.PGSQL.5432' as default.
+[Jan 21 19:29:30] ERROR[1] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on : 
+[Jan 21 19:29:30] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Jan 21 19:29:30] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Jan 21 19:29:30] NOTICE[1] indications.c: Default country for indication tones: us
+[Jan 21 19:29:30] NOTICE[1] indications.c: Setting default indication country to 'us'
+[Jan 21 19:29:30] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Jan 21 19:29:30] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Jan 21 19:29:30] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Jan 21 19:29:30] ERROR[1] config_options.c: Required match field 'type' not found
+[Jan 21 19:29:30] ERROR[1] config_options.c: Could not find config type for category 'geral' in 'confbridge.conf'
+[Jan 21 19:29:30] ERROR[1] app_confbridge.c: Unable to load config. Not loading module.
+[Jan 21 19:29:30] WARNING[1] cel_pgsql.c: CEL pgsql config file missing global section.
+[Jan 21 19:29:30] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Jan 21 19:29:30] NOTICE[1] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Jan 21 19:29:30] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 196-196: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[Jan 21 19:29:30] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 209-209: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[Jan 21 19:29:30] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 328-328: macro call to ael-std-exten-ael cannot be found in the AEL code!
+[Jan 21 19:29:30] WARNING[1] loader.c: Some non-required modules failed to load.
+[Jan 21 19:29:30] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Jan 21 19:29:30] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Jan 21 19:29:30] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Jan 21 19:29:31] ERROR[1] loader.c: Error loading module 'format_ogg_vorbis.so': libvorbisenc.so.2: cannot open shared object file: No such file or directory
+[Jan 21 19:29:31] ERROR[1] loader.c: app_confbridge declined to load.
+[Jan 21 19:29:31] ERROR[1] loader.c: Declined modules which depend on app_confbridge: app_page
+[Jan 21 19:29:31] ERROR[1] loader.c: cdr_pgsql declined to load.
+[Jan 21 19:29:31] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Jan 21 19:29:31] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Jan 21 19:29:31] WARNING[11] pbx_config.c: users.conf is deprecated and will be removed in a future version of Asterisk
+[Feb  2 02:47:58] Asterisk 22.7.0 built by root @ buildkitsandbox on a x86_64 running Linux on 2026-01-07 08:06:09 UTC
+[Feb  2 02:47:58] NOTICE[1] loader.c: 336 modules will be loaded.
+[Feb  2 02:47:59] NOTICE[1] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Feb  2 02:47:59] ERROR[1] res_config_ldap.c: No directory URL or host found.
+[Feb  2 02:47:59] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Feb  2 02:47:59] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database user found, using 'asterisk' as default.
+[Feb  2 02:47:59] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database password found, using 'asterisk' as default.
+[Feb  2 02:47:59] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database host found, using localhost via socket.
+[Feb  2 02:47:59] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database name found, using 'asterisk' as default.
+[Feb  2 02:47:59] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database port found, using 5432 as default.
+[Feb  2 02:47:59] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database socket found, using '/tmp/.s.PGSQL.5432' as default.
+[Feb  2 02:47:59] ERROR[1] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on : 
+[Feb  2 02:47:59] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Feb  2 02:47:59] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Feb  2 02:48:00] NOTICE[1] indications.c: Default country for indication tones: us
+[Feb  2 02:48:00] NOTICE[1] indications.c: Setting default indication country to 'us'
+[Feb  2 02:48:00] ERROR[1] file.c: Error opening directory - /var/lib/asterisk/moh: No such file or directory
+[Feb  2 02:48:00] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Feb  2 02:48:00] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Feb  2 02:48:00] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Feb  2 02:48:00] WARNING[1] iax2/firmware.c: Error opening firmware directory '/var/lib/asterisk/firmware/iax': No such file or directory
+[Feb  2 02:48:01] NOTICE[1] confbridge/conf_config_parser.c: Adding default_bridge profile to app_confbridge
+[Feb  2 02:48:01] NOTICE[1] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Feb  2 02:48:01] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Feb  2 02:48:01] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Feb  2 02:48:01] NOTICE[1] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Feb  2 02:48:01] WARNING[1] cel_pgsql.c: CEL pgsql config file missing global section.
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:48:02] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 196-196: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[Feb  2 02:48:02] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 209-209: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[Feb  2 02:48:02] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 328-328: macro call to ael-std-exten-ael cannot be found in the AEL code!
+[Feb  2 02:48:02] WARNING[1] app_queue.c: Unknown keyword in queue 'roip_queue_00': eventwhencalled at line 10 of queues.conf
+[Feb  2 02:48:02] WARNING[1] app_queue.c: Unknown keyword in queue 'roip_queue_01': eventwhencalled at line 28 of queues.conf
+[Feb  2 02:48:02] WARNING[1] loader.c: Some non-required modules failed to load.
+[Feb  2 02:48:02] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Feb  2 02:48:02] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Feb  2 02:48:02] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Feb  2 02:48:02] ERROR[1] loader.c: Error loading module 'format_ogg_vorbis.so': libvorbisenc.so.2: cannot open shared object file: No such file or directory
+[Feb  2 02:48:02] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Feb  2 02:48:02] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Feb  2 02:48:02] ERROR[1] loader.c: cdr_pgsql declined to load.
+[Feb  2 02:48:02] WARNING[11] pbx_config.c: users.conf is deprecated and will be removed in a future version of Asterisk
+[Feb  2 02:50:22] WARNING[334][C-00000001] file.c: File conf-unmuted does not exist in any format
+[Feb  2 02:50:22] WARNING[334][C-00000001] file.c: Unable to open conf-unmuted (format (ulaw)): No such file or directory
+[Feb  2 02:50:22] WARNING[334][C-00000001] app_confbridge.c: Failed to playback file 'conf-unmuted' to channel
+[Feb  2 02:50:30] WARNING[334][C-00000001] file.c: File conf-muted does not exist in any format
+[Feb  2 02:50:30] WARNING[334][C-00000001] file.c: Unable to open conf-muted (format (ulaw)): No such file or directory
+[Feb  2 02:50:30] WARNING[334][C-00000001] app_confbridge.c: Failed to playback file 'conf-muted' to channel
+[Feb  2 02:50:31] WARNING[340][C-00000002] file.c: File conf-unmuted does not exist in any format
+[Feb  2 02:50:31] WARNING[340][C-00000002] file.c: Unable to open conf-unmuted (format (ulaw)): No such file or directory
+[Feb  2 02:50:31] WARNING[340][C-00000002] app_confbridge.c: Failed to playback file 'conf-unmuted' to channel
+[Feb  2 02:50:39] WARNING[340][C-00000002] file.c: File conf-muted does not exist in any format
+[Feb  2 02:50:39] WARNING[340][C-00000002] file.c: Unable to open conf-muted (format (ulaw)): No such file or directory
+[Feb  2 02:50:39] WARNING[340][C-00000002] app_confbridge.c: Failed to playback file 'conf-muted' to channel
+[Feb  2 02:50:41] ERROR[28] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Feb  2 02:50:41] WARNING[28] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : No such file or directory
+[Feb  2 02:50:41] ERROR[28] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Feb  2 02:50:41] WARNING[28] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : No such file or directory
+[Feb  2 02:50:42] ERROR[28] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Feb  2 02:50:42] WARNING[28] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : No such file or directory
+[Feb  2 02:50:42] ERROR[28] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Feb  2 02:50:42] WARNING[28] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : No such file or directory
+[Feb  2 02:51:52] ERROR[28] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Feb  2 02:51:52] WARNING[28] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : No such file or directory
+[Feb  2 02:51:52] ERROR[28] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Feb  2 02:51:52] WARNING[28] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : No such file or directory
+[Feb  2 02:51:56] ERROR[28] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Feb  2 02:51:56] WARNING[28] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : No such file or directory
+[Feb  2 02:51:56] ERROR[28] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Feb  2 02:51:56] WARNING[28] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : No such file or directory
+[Feb  2 02:57:03] Asterisk 22.7.0 built by root @ buildkitsandbox on a x86_64 running Linux on 2026-01-07 08:06:09 UTC
+[Feb  2 02:57:03] NOTICE[1] loader.c: 336 modules will be loaded.
+[Feb  2 02:57:03] NOTICE[1] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Feb  2 02:57:03] ERROR[1] res_config_ldap.c: No directory URL or host found.
+[Feb  2 02:57:03] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Feb  2 02:57:03] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database user found, using 'asterisk' as default.
+[Feb  2 02:57:03] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database password found, using 'asterisk' as default.
+[Feb  2 02:57:03] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database host found, using localhost via socket.
+[Feb  2 02:57:03] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database name found, using 'asterisk' as default.
+[Feb  2 02:57:03] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database port found, using 5432 as default.
+[Feb  2 02:57:03] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database socket found, using '/tmp/.s.PGSQL.5432' as default.
+[Feb  2 02:57:03] ERROR[1] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on : 
+[Feb  2 02:57:03] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Feb  2 02:57:03] NOTICE[1] cdr.c: CDR logging disabled.
+[Feb  2 02:57:04] NOTICE[1] indications.c: Default country for indication tones: us
+[Feb  2 02:57:04] NOTICE[1] indications.c: Setting default indication country to 'us'
+[Feb  2 02:57:04] ERROR[1] file.c: Error opening directory - /var/lib/asterisk/moh: No such file or directory
+[Feb  2 02:57:04] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Feb  2 02:57:04] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Feb  2 02:57:04] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Feb  2 02:57:04] WARNING[1] iax2/firmware.c: Error opening firmware directory '/var/lib/asterisk/firmware/iax': No such file or directory
+[Feb  2 02:57:05] NOTICE[1] confbridge/conf_config_parser.c: Adding default_bridge profile to app_confbridge
+[Feb  2 02:57:05] NOTICE[1] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Feb  2 02:57:05] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Feb  2 02:57:05] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Feb  2 02:57:05] NOTICE[1] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Feb  2 02:57:05] WARNING[1] cel_pgsql.c: CEL pgsql config file missing global section.
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 02:57:05] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 196-196: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[Feb  2 02:57:05] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 209-209: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[Feb  2 02:57:05] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 328-328: macro call to ael-std-exten-ael cannot be found in the AEL code!
+[Feb  2 02:57:05] WARNING[1] app_queue.c: Unknown keyword in queue 'roip_queue_00': eventwhencalled at line 10 of queues.conf
+[Feb  2 02:57:05] WARNING[1] app_queue.c: Unknown keyword in queue 'roip_queue_01': eventwhencalled at line 28 of queues.conf
+[Feb  2 02:57:05] WARNING[1] loader.c: Some non-required modules failed to load.
+[Feb  2 02:57:05] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Feb  2 02:57:05] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Feb  2 02:57:05] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Feb  2 02:57:05] ERROR[1] loader.c: Error loading module 'format_ogg_vorbis.so': libvorbisenc.so.2: cannot open shared object file: No such file or directory
+[Feb  2 02:57:05] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Feb  2 02:57:05] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Feb  2 02:57:05] ERROR[1] loader.c: cdr_pgsql declined to load.
+[Feb  2 02:57:05] WARNING[9] pbx_config.c: users.conf is deprecated and will be removed in a future version of Asterisk
+[Feb  2 02:57:16] WARNING[120][C-00000002] file.c: File conf-unmuted does not exist in any format
+[Feb  2 02:57:16] WARNING[120][C-00000002] file.c: Unable to open conf-unmuted (format (ulaw)): No such file or directory
+[Feb  2 02:57:16] WARNING[120][C-00000002] app_confbridge.c: Failed to playback file 'conf-unmuted' to channel
+[Feb  2 02:57:18] WARNING[114][C-00000001] file.c: File conf-unmuted does not exist in any format
+[Feb  2 02:57:18] WARNING[114][C-00000001] file.c: Unable to open conf-unmuted (format (ulaw)): No such file or directory
+[Feb  2 02:57:18] WARNING[114][C-00000001] app_confbridge.c: Failed to playback file 'conf-unmuted' to channel
+[Feb  2 02:57:21] WARNING[120][C-00000002] file.c: File conf-muted does not exist in any format
+[Feb  2 02:57:21] WARNING[120][C-00000002] file.c: Unable to open conf-muted (format (ulaw)): No such file or directory
+[Feb  2 02:57:21] WARNING[120][C-00000002] app_confbridge.c: Failed to playback file 'conf-muted' to channel
+[Feb  2 02:57:22] WARNING[114][C-00000001] file.c: File conf-muted does not exist in any format
+[Feb  2 02:57:22] WARNING[114][C-00000001] file.c: Unable to open conf-muted (format (ulaw)): No such file or directory
+[Feb  2 02:57:22] WARNING[114][C-00000001] app_confbridge.c: Failed to playback file 'conf-muted' to channel
+[Feb  2 03:00:17] Asterisk 22.7.0 built by root @ buildkitsandbox on a x86_64 running Linux on 2026-01-07 08:06:09 UTC
+[Feb  2 03:00:17] NOTICE[1] loader.c: 336 modules will be loaded.
+[Feb  2 03:00:18] NOTICE[1] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Feb  2 03:00:18] ERROR[1] res_config_ldap.c: No directory URL or host found.
+[Feb  2 03:00:18] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Feb  2 03:00:18] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database user found, using 'asterisk' as default.
+[Feb  2 03:00:18] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database password found, using 'asterisk' as default.
+[Feb  2 03:00:18] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database host found, using localhost via socket.
+[Feb  2 03:00:18] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database name found, using 'asterisk' as default.
+[Feb  2 03:00:18] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database port found, using 5432 as default.
+[Feb  2 03:00:18] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database socket found, using '/tmp/.s.PGSQL.5432' as default.
+[Feb  2 03:00:18] ERROR[1] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on : 
+[Feb  2 03:00:18] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Feb  2 03:00:18] NOTICE[1] cdr.c: CDR logging disabled.
+[Feb  2 03:00:18] NOTICE[1] indications.c: Default country for indication tones: us
+[Feb  2 03:00:18] NOTICE[1] indications.c: Setting default indication country to 'us'
+[Feb  2 03:00:18] ERROR[1] file.c: Error opening directory - /var/lib/asterisk/moh: No such file or directory
+[Feb  2 03:00:18] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Feb  2 03:00:18] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Feb  2 03:00:18] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Feb  2 03:00:18] WARNING[1] iax2/firmware.c: Error opening firmware directory '/var/lib/asterisk/firmware/iax': No such file or directory
+[Feb  2 03:00:19] NOTICE[1] confbridge/conf_config_parser.c: Adding default_bridge profile to app_confbridge
+[Feb  2 03:00:19] NOTICE[1] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Feb  2 03:00:19] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Feb  2 03:00:19] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Feb  2 03:00:19] NOTICE[1] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Feb  2 03:00:19] WARNING[1] cel_pgsql.c: CEL pgsql config file missing global section.
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:00:19] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 196-196: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[Feb  2 03:00:19] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 209-209: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[Feb  2 03:00:19] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 328-328: macro call to ael-std-exten-ael cannot be found in the AEL code!
+[Feb  2 03:00:19] WARNING[1] app_queue.c: Unknown keyword in queue 'roip_queue_00': eventwhencalled at line 10 of queues.conf
+[Feb  2 03:00:19] WARNING[1] app_queue.c: Unknown keyword in queue 'roip_queue_01': eventwhencalled at line 28 of queues.conf
+[Feb  2 03:00:19] WARNING[1] loader.c: Some non-required modules failed to load.
+[Feb  2 03:00:19] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Feb  2 03:00:19] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Feb  2 03:00:19] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Feb  2 03:00:19] ERROR[1] loader.c: Error loading module 'format_ogg_vorbis.so': libvorbisenc.so.2: cannot open shared object file: No such file or directory
+[Feb  2 03:00:19] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Feb  2 03:00:19] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Feb  2 03:00:19] ERROR[1] loader.c: cdr_pgsql declined to load.
+[Feb  2 03:00:19] WARNING[10] pbx_config.c: users.conf is deprecated and will be removed in a future version of Asterisk
+[Feb  2 03:08:02] WARNING[681][C-00000002] file.c: File conf-unmuted does not exist in any format
+[Feb  2 03:08:02] WARNING[681][C-00000002] file.c: Unable to open conf-unmuted (format (ulaw)): No such file or directory
+[Feb  2 03:08:02] WARNING[681][C-00000002] app_confbridge.c: Failed to playback file 'conf-unmuted' to channel
+[Feb  2 03:08:03] WARNING[681][C-00000002] file.c: File conf-muted does not exist in any format
+[Feb  2 03:08:03] WARNING[681][C-00000002] file.c: Unable to open conf-muted (format (ulaw)): No such file or directory
+[Feb  2 03:08:03] WARNING[681][C-00000002] app_confbridge.c: Failed to playback file 'conf-muted' to channel
+[Feb  2 03:14:16] Asterisk 22.7.0 built by root @ buildkitsandbox on a x86_64 running Linux on 2026-01-07 08:06:09 UTC
+[Feb  2 03:14:16] NOTICE[1] loader.c: 336 modules will be loaded.
+[Feb  2 03:14:17] NOTICE[1] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Feb  2 03:14:17] ERROR[1] res_config_ldap.c: No directory URL or host found.
+[Feb  2 03:14:17] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Feb  2 03:14:17] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database user found, using 'asterisk' as default.
+[Feb  2 03:14:17] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database password found, using 'asterisk' as default.
+[Feb  2 03:14:17] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database host found, using localhost via socket.
+[Feb  2 03:14:17] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database name found, using 'asterisk' as default.
+[Feb  2 03:14:17] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database port found, using 5432 as default.
+[Feb  2 03:14:17] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database socket found, using '/tmp/.s.PGSQL.5432' as default.
+[Feb  2 03:14:17] ERROR[1] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on : 
+[Feb  2 03:14:17] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Feb  2 03:14:17] NOTICE[1] cdr.c: CDR logging disabled.
+[Feb  2 03:14:17] NOTICE[1] indications.c: Default country for indication tones: us
+[Feb  2 03:14:17] NOTICE[1] indications.c: Setting default indication country to 'us'
+[Feb  2 03:14:17] ERROR[1] file.c: Error opening directory - /var/lib/asterisk/moh: No such file or directory
+[Feb  2 03:14:17] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Feb  2 03:14:17] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Feb  2 03:14:17] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Feb  2 03:14:18] WARNING[1] iax2/firmware.c: Error opening firmware directory '/var/lib/asterisk/firmware/iax': No such file or directory
+[Feb  2 03:14:18] NOTICE[1] confbridge/conf_config_parser.c: Adding default_bridge profile to app_confbridge
+[Feb  2 03:14:18] NOTICE[1] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Feb  2 03:14:18] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Feb  2 03:14:18] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Feb  2 03:14:18] NOTICE[1] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Feb  2 03:14:18] WARNING[1] cel_pgsql.c: CEL pgsql config file missing global section.
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] ERROR[1] ael.flex: Unhandled char(s): 
+[Feb  2 03:14:18] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 196-196: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[Feb  2 03:14:18] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 209-209: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[Feb  2 03:14:18] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 328-328: macro call to ael-std-exten-ael cannot be found in the AEL code!
+[Feb  2 03:14:18] WARNING[1] app_queue.c: Unknown keyword in queue 'roip_queue_00': eventwhencalled at line 10 of queues.conf
+[Feb  2 03:14:18] WARNING[1] app_queue.c: Unknown keyword in queue 'roip_queue_01': eventwhencalled at line 28 of queues.conf
+[Feb  2 03:14:18] WARNING[1] loader.c: Some non-required modules failed to load.
+[Feb  2 03:14:18] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[Feb  2 03:14:18] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[Feb  2 03:14:18] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[Feb  2 03:14:18] ERROR[1] loader.c: Error loading module 'format_ogg_vorbis.so': libvorbisenc.so.2: cannot open shared object file: No such file or directory
+[Feb  2 03:14:18] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Feb  2 03:14:18] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Feb  2 03:14:18] ERROR[1] loader.c: cdr_pgsql declined to load.
+[Feb  2 03:14:18] WARNING[11] pbx_config.c: users.conf is deprecated and will be removed in a future version of Asterisk
+[Feb  2 03:14:38] WARNING[122][C-00000001] file.c: File conf-unmuted does not exist in any format
+[Feb  2 03:14:38] WARNING[122][C-00000001] file.c: Unable to open conf-unmuted (format (ulaw)): No such file or directory
+[Feb  2 03:14:38] WARNING[122][C-00000001] app_confbridge.c: Failed to playback file 'conf-unmuted' to channel
+[Feb  2 03:14:40] WARNING[122][C-00000001] file.c: File conf-muted does not exist in any format
+[Feb  2 03:14:40] WARNING[122][C-00000001] file.c: Unable to open conf-muted (format (ulaw)): No such file or directory
+[Feb  2 03:14:40] WARNING[122][C-00000001] app_confbridge.c: Failed to playback file 'conf-muted' to channel

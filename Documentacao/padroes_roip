@@ -1,0 +1,41 @@
+DOCUMENTAÇÃO DE PADRONIZAÇÃO DE USUÁRIOS E EXTENSÕES
+Projeto: Sistema RoIP baseado em VoIP (Asterisk)
+
+OBJETIVO
+Este documento estabelece o padrão oficial de identificação de usuários e extensões no sistema RoIP baseado em VoIP.
+
+PADRONIZAÇÃO DE USUÁRIOS
+Formato: GGUU
+GG = Grupo
+UU = Usuário no grupo
+
+Grupos definidos:
+00 - Grupo 00
+01 - Grupo 01
+
+Usuários Grupo 00:
+0001
+0002
+0003
+
+Usuários Grupo 01:
+0101
+0102
+0103
+
+PADRONIZAÇÃO DE EXTENSÕES
+Formato: 1GGS
+1 = chamada direta/controle
+GG = grupo
+S = subgrupo/controle
+
+Extensões definidas:
+1000 - Base Grupo 00
+1010 - Base Grupo 01
+
+DIRETRIZES DE EXPANSÃO
+Novos usuários: GGUU (ex: 0004, 0104)
+Novas extensões: 1GGS (ex: 1001, 1011, 1020)
+
+CONSIDERAÇÕES
+Modelo compatível com roteamento Asterisk, AGI, PTT e half-duplex.

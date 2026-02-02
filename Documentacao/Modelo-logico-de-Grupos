@@ -1,0 +1,181 @@
+# Modelo Lógico de Grupos – Projeto RoIP com Asterisk
+
+## 1. Objetivo
+
+Este documento descreve o modelo lógico adotado para a implementação de um sistema RoIP (Radio over IP) utilizando Asterisk, com suporte a transmissões em broadcast dentro de grupos, controle de prioridade e futura integração com AGI, banco de dados ou APIs.
+
+O modelo foi projetado para:
+
+* Simular comportamento de rádio (um fala, muitos escutam)
+* Permitir grupos lógicos
+* Controlar permissões de transmissão e recepção
+* Resolver colisões de fala
+* Evoluir sem refatoração estrutural
+
+---
+
+## 2. Conceitos Centrais
+
+O sistema trata "grupos" como entidades lógicas independentes do dialplan.
+Cada grupo possui:
+
+* Identidade
+* Membros
+* Política de transmissão
+* Regras de prioridade
+* Regras de permissão
+
+Isso permite:
+
+* Broadcast estilo rádio
+* Subgrupos
+* Prioridade de fala
+* Evolução futura para banco/AGI
+
+---
+
+## 3. Entidades do Modelo
+
+### 3.1. Endpoint (Rádio / Usuário SIP)
+
+Representa cada softphone, rádio IP, app móvel ou terminal SIP.
+
+Campos lógicos:
+
+endpoint_id      (ex: 1001)
+display_name     (ex: "Viatura 01")
+group_membership (ex: GERAL, ALFA)
+priority         (ex: 10)
+can_transmit     (true/false)
+can_receive      (true/false)
+
+---
+
+### 3.2. Grupo
+
+Representa um canal lógico de rádio.
+
+Campos lógicos:
+
+group_id         (ex: GERAL)
+group_number     (ex: 700)
+description      (ex: "Canal Geral")
+broadcast_mode   (ex: full-duplex | half-duplex)
+priority_mode    (ex: first | highest | forced)
+allow_interrupt  (true/false)
+
+---
+
+### 3.3. Associação Endpoint ↔ Grupo
+
+Um endpoint pode pertencer a múltiplos grupos.
+
+Campos lógicos:
+
+endpoint_id
+group_id
+can_transmit   (true/false)
+can_receive    (true/false)
+priority       (override opcional)
+
+---
+
+## 4. Fluxo Lógico de uma Transmissão (RoIP)
+
+1. Um endpoint disca o número do grupo (ex: 700).
+2. O sistema:
+
+   * Identifica quem chamou.
+   * Valida:
+
+     * Ele pertence ao grupo?
+     * Ele pode transmitir?
+3. O sistema resolve quem deve receber:
+
+   * Todos os membros com can_receive = true.
+4. Política de colisão:
+
+   * Se outro já está transmitindo:
+
+     * priority_mode = first → rejeita novos.
+     * priority_mode = highest → compara prioridades.
+     * priority_mode = forced → derruba o atual.
+5. O áudio é injetado como broadcast para os receptores.
+
+---
+
+## 5. Implementação Inicial no Asterisk
+
+### 5.1. Estratégia
+
+* Grupos = ConfBridge (conferências unidirecionais)
+* Transmissor = quem entra com áudio habilitado
+* Receptores = quem entra apenas escutando
+
+---
+
+### 5.2. Representação Estática (Fase 1)
+
+Arquivo conceitual: /etc/asterisk/roip_groups.conf
+
+[GERAL]
+number=700
+members=1001,1002,1003
+tx_allowed=1001,1002
+rx_allowed=1001,1002,1003
+priority_mode=first
+
+---
+
+## 6. Justificativa do Modelo
+
+1. Independente do dialplan
+
+   * Permite migração futura para banco, AGI ou REST API
+
+2. Compatível com RoIP real
+
+   * Um fala, muitos escutam
+   * Política de colisão
+
+3. Escalável
+
+   * Endpoints em múltiplos grupos
+
+4. Compatível com PJSIP
+
+   * Não depende de recursos proprietários
+
+---
+
+## 7. Próximos Passos Planejados
+
+1. Materializar o modelo em:
+
+   * pjsip.conf
+   * extensions.conf
+   * confbridge.conf
+
+2. Implementar:
+
+   * 2 endpoints
+   * 1 grupo
+   * Broadcast funcional
+
+3. Evoluir para:
+
+   * Leitura dinâmica de grupos
+   * Banco de dados
+   * AGI
+
+---
+
+## 8. Observação Acadêmica
+
+Este modelo foi projetado para servir como base conceitual e técnica para projetos acadêmicos (ex: TCC), permitindo:
+
+* Extensão incremental
+* Validação prática
+* Justificativa arquitetural
+
+
