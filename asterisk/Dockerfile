@@ -1,46 +1,21 @@
-FROM debian:12
+FROM andrius/asterisk
 
-ENV DEBIAN_FRONTEND=noninteractive
+USER root
 
-RUN apt update && apt install -y \
-  build-essential \
-  git \
-  wget \
-  libncurses5-dev \
-  libssl-dev \
-  libxml2-dev \
-  uuid-dev \
-  libsqlite3-dev \
-  libjansson-dev \
-  libedit-dev \
-  libsndfile1-dev \
-  libcurl4-openssl-dev \
-  libopus-dev \
-  libpjproject-dev \
-  ca-certificates \
-  python3 \
-  && rm -rf /var/lib/apt/lists/*
+# Copia AGIs
+COPY agi-bin /var/lib/asterisk/agi-bin
 
-WORKDIR /usr/src
+# Copia configs
+COPY etc /etc/asterisk
 
-RUN wget http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-22-current.tar.gz \
- && tar xzf asterisk-22-current.tar.gz \
- && cd asterisk-22* \
- && ./configure \
- && make menuselect.makeopts \
- && menuselect/menuselect \
-    --enable app_confbridge \
-    --enable res_confbridge \
-    --enable bridge_softmix \
-    menuselect.makeopts \
- && make -j$(nproc) \
- && make install \
- && make samples \
- && make config
+# Normaliza CRLF, permissões e dono
+RUN sed -i 's/\r$//' /var/lib/asterisk/agi-bin/*.agi \
+ && chown -R asterisk:asterisk /var/lib/asterisk/agi-bin \
+ && chmod 750 /var/lib/asterisk/agi-bin \
+ && find /var/lib/asterisk/agi-bin -type f -name "*.agi" -exec chmod 750 {} \;
 
-RUN useradd -r -d /var/lib/asterisk -s /sbin/nologin asterisk \
- && chown -R asterisk:asterisk /var/lib/asterisk /var/log/asterisk /var/spool/asterisk
+# Sons do ConfBridge (se você usa conf-muted / conf-unmuted)
+COPY sounds /var/lib/asterisk/sounds
+RUN chown -R asterisk:asterisk /var/lib/asterisk/sounds
 
 USER asterisk
-CMD ["/usr/sbin/asterisk", "-f"]
-

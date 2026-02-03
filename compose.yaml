@@ -1,6 +1,6 @@
 services:
   asterisk:
-    image: andrius/asterisk
+    build: ./asterisk
     container_name: asterisk
     restart: unless-stopped
 
@@ -10,8 +10,6 @@ services:
       - "10000-10100:10000-10100/udp"
 
     volumes:
-      - ./asterisk/etc:/etc/asterisk
-      - ./asterisk/lib:/var/lib/asterisk
       - ./asterisk/log:/var/log/asterisk
       - ./asterisk/spool:/var/spool/asterisk
 
@@ -26,7 +24,7 @@ services:
       - "8080:8080"
     
     volumes:
-      - ./asterisk/logs:/var/log/asterisk:ro
+      - ./asterisk/log:/var/log/asterisk:ro
     
     depends_on:
       - asterisk

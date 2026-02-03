@@ -1,0 +1,70 @@
+#!/usr/bin/env python3
+import sys
+import time
+import json
+import os
+from datetime import datetime
+
+STATE_DIR = "/tmp/roip"
+LOG_FILE = "/var/log/asterisk/roip.log"
+
+os.makedirs(STATE_DIR, exist_ok=True)
+
+def log(line):
+    with open(LOG_FILE, "a") as f:
+        f.write(line + "\n")
+
+def now_epoch():
+    return int(time.time())
+
+def now_human():
+    return datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+
+try:
+    event   = sys.argv[1]
+    conf    = sys.argv[2]
+    caller  = sys.argv[3]
+    session = sys.argv[4]
+except IndexError:
+    log("ERROR | insufficient arguments | argv={}".format(sys.argv))
+    sys.exit(0)
+
+session_file = f"{STATE_DIR}/session_{session}.json"
+
+# ---------- JOIN ----------
+if event == "join":
+    data = {
+        "session": session,
+        "conf": conf,
+        "caller": caller,
+        "join_time": now_epoch(),
+        "leave_time": None,
+        "duration": None
+    }
+
+    with open(session_file, "w") as f:
+        json.dump(data, f)
+
+    log(f"JOIN | conf={conf} | caller={caller} | session={session} | time={now_human()}")
+
+# ---------- LEAVE / HANGUP ----------
+elif event in ("leave", "hangup"):
+    if os.path.exists(session_file):
+        with open(session_file) as f:
+            data = json.load(f)
+
+        if data.get("leave_time") is not None:
+            log(f"IGNORED | conf={conf} | caller={caller} | session={session} | already_closed | type={event}")
+            sys.exit(0)
+
+        data["leave_time"] = now_epoch()
+        data["duration"] = data["leave_time"] - data["join_time"]
+
+        with open(session_file, "w") as f:
+            json.dump(data, f)
+
+        log(f"LEAVE | conf={conf} | caller={caller} | session={session} | duration={data['duration']}s | type={event}")
+    else:
+        log(f"FAILSAFE | conf={conf} | caller={caller} | session={session} | no_session_file")
+
+sys.exit(0)

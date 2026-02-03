@@ -1435,3 +1435,601 @@
 [2026-02-03 02:47:15] WARNING[454][C-00000002] file.c: File conf-muted does not exist in any format
 [2026-02-03 02:47:15] WARNING[454][C-00000002] file.c: Unable to open conf-muted (format (ulaw)): No such file or directory
 [2026-02-03 02:47:15] WARNING[454][C-00000002] app_confbridge.c: Failed to playback file 'conf-muted' to channel
+[2026-02-03 03:48:56] Asterisk 22.7.0 built by root @ buildkitsandbox on a x86_64 running Linux on 2026-01-28 08:06:06 UTC
+[2026-02-03 03:48:56] NOTICE[1] loader.c: 336 modules will be loaded.
+[2026-02-03 03:48:56] NOTICE[1] res_config_ldap.c: No directory user found, anonymous binding as default.
+[2026-02-03 03:48:56] ERROR[1] res_config_ldap.c: No directory URL or host found.
+[2026-02-03 03:48:56] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[2026-02-03 03:48:56] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database user found, using 'asterisk' as default.
+[2026-02-03 03:48:56] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database password found, using 'asterisk' as default.
+[2026-02-03 03:48:56] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database host found, using localhost via socket.
+[2026-02-03 03:48:56] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database name found, using 'asterisk' as default.
+[2026-02-03 03:48:56] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database port found, using 5432 as default.
+[2026-02-03 03:48:56] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database socket found, using '/tmp/.s.PGSQL.5432' as default.
+[2026-02-03 03:48:56] ERROR[1] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on : 
+[2026-02-03 03:48:56] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[2026-02-03 03:48:56] NOTICE[1] cdr.c: CDR logging disabled.
+[2026-02-03 03:48:56] NOTICE[1] indications.c: Default country for indication tones: us
+[2026-02-03 03:48:56] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2026-02-03 03:48:57] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[2026-02-03 03:48:57] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2026-02-03 03:48:57] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2026-02-03 03:48:57] NOTICE[1] confbridge/conf_config_parser.c: Adding default_bridge profile to app_confbridge
+[2026-02-03 03:48:57] NOTICE[1] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[2026-02-03 03:48:57] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2026-02-03 03:48:57] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2026-02-03 03:48:57] NOTICE[1] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[2026-02-03 03:48:57] WARNING[1] cel_pgsql.c: CEL pgsql config file missing global section.
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] ERROR[1] ael.flex: Unhandled char(s): 
+[2026-02-03 03:48:58] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 196-196: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[2026-02-03 03:48:58] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 209-209: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[2026-02-03 03:48:58] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 328-328: macro call to ael-std-exten-ael cannot be found in the AEL code!
+[2026-02-03 03:48:58] WARNING[1] app_queue.c: Unknown keyword in queue 'roip_queue_00': eventwhencalled at line 10 of queues.conf
+[2026-02-03 03:48:58] WARNING[1] app_queue.c: Unknown keyword in queue 'roip_queue_01': eventwhencalled at line 28 of queues.conf
+[2026-02-03 03:48:58] WARNING[1] loader.c: Some non-required modules failed to load.
+[2026-02-03 03:48:58] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2026-02-03 03:48:58] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2026-02-03 03:48:58] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2026-02-03 03:48:58] ERROR[1] loader.c: Error loading module 'format_ogg_vorbis.so': libvorbisenc.so.2: cannot open shared object file: No such file or directory
+[2026-02-03 03:48:58] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2026-02-03 03:48:58] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2026-02-03 03:48:58] ERROR[1] loader.c: cdr_pgsql declined to load.
+[2026-02-03 03:48:58] WARNING[8] pbx_config.c: users.conf is deprecated and will be removed in a future version of Asterisk
+[2026-02-03 03:49:55] WARNING[189][C-00000001] file.c: File conf-unmuted does not exist in any format
+[2026-02-03 03:49:55] WARNING[189][C-00000001] file.c: Unable to open conf-unmuted (format (ulaw)): No such file or directory
+[2026-02-03 03:49:55] WARNING[189][C-00000001] app_confbridge.c: Failed to playback file 'conf-unmuted' to channel
+[2026-02-03 03:49:57] WARNING[189][C-00000001] file.c: File conf-muted does not exist in any format
+[2026-02-03 03:49:57] WARNING[189][C-00000001] file.c: Unable to open conf-muted (format (ulaw)): No such file or directory
+[2026-02-03 03:49:57] WARNING[189][C-00000001] app_confbridge.c: Failed to playback file 'conf-muted' to channel
+[2026-02-03 03:55:27] Asterisk 22.7.0 built by root @ buildkitsandbox on a x86_64 running Linux on 2026-01-28 08:06:06 UTC
+[2026-02-03 03:55:27] NOTICE[611] res_config_ldap.c: No directory user found, anonymous binding as default.
+[2026-02-03 03:55:27] ERROR[611] res_config_ldap.c: No directory URL or host found.
+[2026-02-03 03:55:27] NOTICE[611] res_config_ldap.c: Cannot reload LDAP RealTime driver.
+[2026-02-03 03:55:27] WARNING[611] res_config_pgsql.c: PostgreSQL RealTime: Not connected
+[2026-02-03 03:55:27] NOTICE[611] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[2026-02-03 03:55:27] NOTICE[611] cdr.c: CDR logging disabled.
+[2026-02-03 03:55:27] NOTICE[612] sorcery.c: Type 'system' is not reloadable, maintaining previous values
+[2026-02-03 03:55:27] WARNING[611] res_phoneprov.c: Unable to find a valid server address or name.
+[2026-02-03 03:55:27] NOTICE[611] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] ERROR[611] ael.flex: Unhandled char(s): 
+[2026-02-03 03:55:27] WARNING[611] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 196-196: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[2026-02-03 03:55:27] WARNING[611] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 209-209: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[2026-02-03 03:55:27] WARNING[611] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 328-328: macro call to ael-std-exten-ael cannot be found in the AEL code!
+[2026-02-03 03:55:27] NOTICE[611] app_queue.c: queuerules.conf has not changed since it was last loaded. Not taking any action.
+[2026-02-03 04:05:46] Asterisk 22.7.0 built by root @ buildkitsandbox on a x86_64 running Linux on 2026-01-28 08:06:06 UTC
+[2026-02-03 04:05:46] NOTICE[1] loader.c: 336 modules will be loaded.
+[2026-02-03 04:05:46] NOTICE[1] res_config_ldap.c: No directory user found, anonymous binding as default.
+[2026-02-03 04:05:46] ERROR[1] res_config_ldap.c: No directory URL or host found.
+[2026-02-03 04:05:46] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[2026-02-03 04:05:46] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database user found, using 'asterisk' as default.
+[2026-02-03 04:05:46] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database password found, using 'asterisk' as default.
+[2026-02-03 04:05:46] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database host found, using localhost via socket.
+[2026-02-03 04:05:46] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database name found, using 'asterisk' as default.
+[2026-02-03 04:05:46] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database port found, using 5432 as default.
+[2026-02-03 04:05:46] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database socket found, using '/tmp/.s.PGSQL.5432' as default.
+[2026-02-03 04:05:46] ERROR[1] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on : 
+[2026-02-03 04:05:46] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[2026-02-03 04:05:46] NOTICE[1] cdr.c: CDR logging disabled.
+[2026-02-03 04:05:46] NOTICE[1] indications.c: Default country for indication tones: us
+[2026-02-03 04:05:46] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2026-02-03 04:05:46] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[2026-02-03 04:05:46] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2026-02-03 04:05:46] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2026-02-03 04:05:47] NOTICE[1] confbridge/conf_config_parser.c: Adding default_bridge profile to app_confbridge
+[2026-02-03 04:05:47] NOTICE[1] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[2026-02-03 04:05:47] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2026-02-03 04:05:47] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2026-02-03 04:05:47] NOTICE[1] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[2026-02-03 04:05:47] WARNING[1] cel_pgsql.c: CEL pgsql config file missing global section.
+[2026-02-03 04:05:47] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 196-196: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[2026-02-03 04:05:47] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 209-209: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[2026-02-03 04:05:47] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 328-328: macro call to ael-std-exten-ael cannot be found in the AEL code!
+[2026-02-03 04:05:47] WARNING[1] app_queue.c: Unknown keyword in queue 'roip_queue_00': eventwhencalled at line 10 of queues.conf
+[2026-02-03 04:05:47] WARNING[1] app_queue.c: Unknown keyword in queue 'roip_queue_01': eventwhencalled at line 28 of queues.conf
+[2026-02-03 04:05:47] WARNING[1] loader.c: Some non-required modules failed to load.
+[2026-02-03 04:05:48] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2026-02-03 04:05:48] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2026-02-03 04:05:48] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2026-02-03 04:05:48] ERROR[1] loader.c: Error loading module 'format_ogg_vorbis.so': libvorbisenc.so.2: cannot open shared object file: No such file or directory
+[2026-02-03 04:05:48] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2026-02-03 04:05:48] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2026-02-03 04:05:48] ERROR[1] loader.c: cdr_pgsql declined to load.
+[2026-02-03 04:05:48] WARNING[11] pbx_config.c: users.conf is deprecated and will be removed in a future version of Asterisk
+[2026-02-03 04:16:31] Asterisk 22.7.0 built by root @ buildkitsandbox on a x86_64 running Linux on 2026-01-28 08:06:06 UTC
+[2026-02-03 04:16:31] NOTICE[1] loader.c: 336 modules will be loaded.
+[2026-02-03 04:16:32] NOTICE[1] res_config_ldap.c: No directory user found, anonymous binding as default.
+[2026-02-03 04:16:32] ERROR[1] res_config_ldap.c: No directory URL or host found.
+[2026-02-03 04:16:32] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[2026-02-03 04:16:32] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database user found, using 'asterisk' as default.
+[2026-02-03 04:16:32] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database password found, using 'asterisk' as default.
+[2026-02-03 04:16:32] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database host found, using localhost via socket.
+[2026-02-03 04:16:32] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database name found, using 'asterisk' as default.
+[2026-02-03 04:16:32] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database port found, using 5432 as default.
+[2026-02-03 04:16:32] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database socket found, using '/tmp/.s.PGSQL.5432' as default.
+[2026-02-03 04:16:32] ERROR[1] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on : 
+[2026-02-03 04:16:32] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[2026-02-03 04:16:32] NOTICE[1] cdr.c: CDR logging disabled.
+[2026-02-03 04:16:32] NOTICE[1] indications.c: Default country for indication tones: us
+[2026-02-03 04:16:32] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2026-02-03 04:16:32] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[2026-02-03 04:16:32] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2026-02-03 04:16:32] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2026-02-03 04:16:32] NOTICE[1] confbridge/conf_config_parser.c: Adding default_bridge profile to app_confbridge
+[2026-02-03 04:16:32] NOTICE[1] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[2026-02-03 04:16:32] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2026-02-03 04:16:32] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2026-02-03 04:16:32] NOTICE[1] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[2026-02-03 04:16:32] WARNING[1] cel_pgsql.c: CEL pgsql config file missing global section.
+[2026-02-03 04:16:33] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 196-196: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[2026-02-03 04:16:33] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 209-209: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[2026-02-03 04:16:33] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 328-328: macro call to ael-std-exten-ael cannot be found in the AEL code!
+[2026-02-03 04:16:33] WARNING[1] app_queue.c: Unknown keyword in queue 'roip_queue_00': eventwhencalled at line 10 of queues.conf
+[2026-02-03 04:16:33] WARNING[1] app_queue.c: Unknown keyword in queue 'roip_queue_01': eventwhencalled at line 28 of queues.conf
+[2026-02-03 04:16:33] WARNING[1] loader.c: Some non-required modules failed to load.
+[2026-02-03 04:16:33] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2026-02-03 04:16:33] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2026-02-03 04:16:33] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2026-02-03 04:16:33] ERROR[1] loader.c: Error loading module 'format_ogg_vorbis.so': libvorbisenc.so.2: cannot open shared object file: No such file or directory
+[2026-02-03 04:16:33] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2026-02-03 04:16:33] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2026-02-03 04:16:33] ERROR[1] loader.c: cdr_pgsql declined to load.
+[2026-02-03 04:16:33] WARNING[12] pbx_config.c: users.conf is deprecated and will be removed in a future version of Asterisk
+[2026-02-03 04:25:34] WARNING[732][C-00000001] file.c: File conf-unmuted does not exist in any format
+[2026-02-03 04:25:34] WARNING[732][C-00000001] file.c: Unable to open conf-unmuted (format (ulaw)): No such file or directory
+[2026-02-03 04:25:34] WARNING[732][C-00000001] app_confbridge.c: Failed to playback file 'conf-unmuted' to channel
+[2026-02-03 04:25:36] WARNING[732][C-00000001] file.c: File conf-muted does not exist in any format
+[2026-02-03 04:25:36] WARNING[732][C-00000001] file.c: Unable to open conf-muted (format (ulaw)): No such file or directory
+[2026-02-03 04:25:36] WARNING[732][C-00000001] app_confbridge.c: Failed to playback file 'conf-muted' to channel
+[2026-02-03 04:43:17] Asterisk 22.7.0 built by root @ buildkitsandbox on a x86_64 running Linux on 2026-01-28 08:06:06 UTC
+[2026-02-03 04:43:17] NOTICE[1] loader.c: 336 modules will be loaded.
+[2026-02-03 04:43:18] NOTICE[1] res_config_ldap.c: No directory user found, anonymous binding as default.
+[2026-02-03 04:43:18] ERROR[1] res_config_ldap.c: No directory URL or host found.
+[2026-02-03 04:43:18] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[2026-02-03 04:43:18] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database user found, using 'asterisk' as default.
+[2026-02-03 04:43:18] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database password found, using 'asterisk' as default.
+[2026-02-03 04:43:18] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database host found, using localhost via socket.
+[2026-02-03 04:43:18] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database name found, using 'asterisk' as default.
+[2026-02-03 04:43:18] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database port found, using 5432 as default.
+[2026-02-03 04:43:18] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database socket found, using '/tmp/.s.PGSQL.5432' as default.
+[2026-02-03 04:43:18] ERROR[1] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on : 
+[2026-02-03 04:43:18] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[2026-02-03 04:43:18] NOTICE[1] cdr.c: CDR logging disabled.
+[2026-02-03 04:43:18] NOTICE[1] indications.c: Default country for indication tones: us
+[2026-02-03 04:43:18] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2026-02-03 04:43:18] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[2026-02-03 04:43:18] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2026-02-03 04:43:18] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2026-02-03 04:43:18] NOTICE[1] confbridge/conf_config_parser.c: Adding default_bridge profile to app_confbridge
+[2026-02-03 04:43:18] NOTICE[1] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[2026-02-03 04:43:18] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2026-02-03 04:43:19] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2026-02-03 04:43:19] NOTICE[1] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[2026-02-03 04:43:19] WARNING[1] cel_pgsql.c: CEL pgsql config file missing global section.
+[2026-02-03 04:43:19] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 196-196: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[2026-02-03 04:43:19] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 209-209: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[2026-02-03 04:43:19] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 328-328: macro call to ael-std-exten-ael cannot be found in the AEL code!
+[2026-02-03 04:43:19] WARNING[1] app_queue.c: Unknown keyword in queue 'roip_queue_00': eventwhencalled at line 10 of queues.conf
+[2026-02-03 04:43:19] WARNING[1] app_queue.c: Unknown keyword in queue 'roip_queue_01': eventwhencalled at line 28 of queues.conf
+[2026-02-03 04:43:19] WARNING[1] loader.c: Some non-required modules failed to load.
+[2026-02-03 04:43:19] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2026-02-03 04:43:19] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2026-02-03 04:43:19] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2026-02-03 04:43:19] ERROR[1] loader.c: Error loading module 'format_ogg_vorbis.so': libvorbisenc.so.2: cannot open shared object file: No such file or directory
+[2026-02-03 04:43:19] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2026-02-03 04:43:19] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2026-02-03 04:43:19] ERROR[1] loader.c: cdr_pgsql declined to load.
+[2026-02-03 04:43:19] WARNING[9] pbx_config.c: users.conf is deprecated and will be removed in a future version of Asterisk
+[2026-02-03 04:55:35] Asterisk 22.7.0 built by root @ buildkitsandbox on a x86_64 running Linux on 2026-01-28 08:06:06 UTC
+[2026-02-03 04:55:35] NOTICE[1] loader.c: 336 modules will be loaded.
+[2026-02-03 04:55:36] NOTICE[1] res_config_ldap.c: No directory user found, anonymous binding as default.
+[2026-02-03 04:55:36] ERROR[1] res_config_ldap.c: No directory URL or host found.
+[2026-02-03 04:55:36] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[2026-02-03 04:55:36] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database user found, using 'asterisk' as default.
+[2026-02-03 04:55:36] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database password found, using 'asterisk' as default.
+[2026-02-03 04:55:36] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database host found, using localhost via socket.
+[2026-02-03 04:55:36] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database name found, using 'asterisk' as default.
+[2026-02-03 04:55:36] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database port found, using 5432 as default.
+[2026-02-03 04:55:36] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database socket found, using '/tmp/.s.PGSQL.5432' as default.
+[2026-02-03 04:55:36] ERROR[1] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on : 
+[2026-02-03 04:55:36] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[2026-02-03 04:55:36] NOTICE[1] cdr.c: CDR logging disabled.
+[2026-02-03 04:55:36] NOTICE[1] indications.c: Default country for indication tones: us
+[2026-02-03 04:55:36] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2026-02-03 04:55:36] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[2026-02-03 04:55:36] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2026-02-03 04:55:36] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2026-02-03 04:55:36] NOTICE[1] confbridge/conf_config_parser.c: Adding default_bridge profile to app_confbridge
+[2026-02-03 04:55:36] NOTICE[1] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[2026-02-03 04:55:36] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2026-02-03 04:55:37] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2026-02-03 04:55:37] NOTICE[1] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[2026-02-03 04:55:37] WARNING[1] cel_pgsql.c: CEL pgsql config file missing global section.
+[2026-02-03 04:55:37] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 196-196: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[2026-02-03 04:55:37] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 209-209: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[2026-02-03 04:55:37] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 328-328: macro call to ael-std-exten-ael cannot be found in the AEL code!
+[2026-02-03 04:55:37] WARNING[1] app_queue.c: Unknown keyword in queue 'roip_queue_00': eventwhencalled at line 10 of queues.conf
+[2026-02-03 04:55:37] WARNING[1] app_queue.c: Unknown keyword in queue 'roip_queue_01': eventwhencalled at line 28 of queues.conf
+[2026-02-03 04:55:37] WARNING[1] loader.c: Some non-required modules failed to load.
+[2026-02-03 04:55:37] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2026-02-03 04:55:37] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2026-02-03 04:55:37] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2026-02-03 04:55:37] ERROR[1] loader.c: Error loading module 'format_ogg_vorbis.so': libvorbisenc.so.2: cannot open shared object file: No such file or directory
+[2026-02-03 04:55:37] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2026-02-03 04:55:37] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2026-02-03 04:55:37] ERROR[1] loader.c: cdr_pgsql declined to load.
+[2026-02-03 04:55:37] WARNING[11] pbx_config.c: users.conf is deprecated and will be removed in a future version of Asterisk
+[2026-02-03 05:00:17] Asterisk 22.7.0 built by root @ buildkitsandbox on a x86_64 running Linux on 2026-01-28 08:06:06 UTC
+[2026-02-03 05:00:17] NOTICE[1] loader.c: 336 modules will be loaded.
+[2026-02-03 05:00:18] NOTICE[1] res_config_ldap.c: No directory user found, anonymous binding as default.
+[2026-02-03 05:00:18] ERROR[1] res_config_ldap.c: No directory URL or host found.
+[2026-02-03 05:00:18] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[2026-02-03 05:00:18] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database user found, using 'asterisk' as default.
+[2026-02-03 05:00:18] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database password found, using 'asterisk' as default.
+[2026-02-03 05:00:18] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database host found, using localhost via socket.
+[2026-02-03 05:00:18] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database name found, using 'asterisk' as default.
+[2026-02-03 05:00:18] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database port found, using 5432 as default.
+[2026-02-03 05:00:18] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: No database socket found, using '/tmp/.s.PGSQL.5432' as default.
+[2026-02-03 05:00:18] ERROR[1] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on : 
+[2026-02-03 05:00:18] WARNING[1] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[2026-02-03 05:00:18] NOTICE[1] cdr.c: CDR logging disabled.
+[2026-02-03 05:00:18] NOTICE[1] indications.c: Default country for indication tones: us
+[2026-02-03 05:00:18] NOTICE[1] indications.c: Setting default indication country to 'us'
+[2026-02-03 05:00:18] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[2026-02-03 05:00:18] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[2026-02-03 05:00:18] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[2026-02-03 05:00:18] NOTICE[1] confbridge/conf_config_parser.c: Adding default_bridge profile to app_confbridge
+[2026-02-03 05:00:18] NOTICE[1] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[2026-02-03 05:00:18] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[2026-02-03 05:00:19] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[2026-02-03 05:00:19] NOTICE[1] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[2026-02-03 05:00:19] WARNING[1] cel_pgsql.c: CEL pgsql config file missing global section.
+[2026-02-03 05:00:19] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 196-196: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[2026-02-03 05:00:19] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 209-209: macro call to ael-dundi-e164 cannot be found in the AEL code!
+[2026-02-03 05:00:19] WARNING[1] ael/pval.c: Warning: file /etc/asterisk/extensions.ael, line 328-328: macro call to ael-std-exten-ael cannot be found in the AEL code!
+[2026-02-03 05:00:19] WARNING[1] app_queue.c: Unknown keyword in queue 'roip_queue_00': eventwhencalled at line 10 of queues.conf
+[2026-02-03 05:00:19] WARNING[1] app_queue.c: Unknown keyword in queue 'roip_queue_01': eventwhencalled at line 28 of queues.conf
+[2026-02-03 05:00:19] WARNING[1] loader.c: Some non-required modules failed to load.
+[2026-02-03 05:00:19] WARNING[1] loader.c: Module 'res_adsi' has been loaded but may be removed in a future release.
+[2026-02-03 05:00:19] WARNING[1] loader.c: Module 'app_adsiprog' has been loaded but may be removed in a future release.
+[2026-02-03 05:00:19] WARNING[1] loader.c: Module 'app_getcpeid' has been loaded but may be removed in a future release.
+[2026-02-03 05:00:19] ERROR[1] loader.c: Error loading module 'format_ogg_vorbis.so': libvorbisenc.so.2: cannot open shared object file: No such file or directory
+[2026-02-03 05:00:19] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[2026-02-03 05:00:19] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[2026-02-03 05:00:19] ERROR[1] loader.c: cdr_pgsql declined to load.
+[2026-02-03 05:00:19] WARNING[11] pbx_config.c: users.conf is deprecated and will be removed in a future version of Asterisk

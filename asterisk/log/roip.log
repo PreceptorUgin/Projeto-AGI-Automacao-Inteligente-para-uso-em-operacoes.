@@ -6,3 +6,13 @@ LEAVE | conf=ROIP_00 | caller=0001 | session=1770086821.0 | duration=15s | type=
 LEAVE | conf=ROIP_00 | caller=0002 | session=1770086827.3 | duration=11s | type=hangup
 JOIN | conf=ROIP_00 | caller=0001 | session=1770087607.4
 LEAVE | conf=ROIP_00 | caller=0001 | session=1770087607.4 | duration=9s | type=hangup
+FAILSAFE | conf=ROIP_00 | caller=0001 | session=1770090934.3 | no_session_file
+FAILSAFE | conf=ROIP_00 | caller=0001 | session=1770091609.0 | no_session_file
+FAILSAFE | conf=ROIP_00 | caller=0001 | session=1770092732.0 | no_session_file
+FAILSAFE | conf=ROIP_00 | caller=0001 | session=1770092914.3 | no_session_file
+JOIN | conf=ROIP_00 | caller=0001 | session=1770093869.0 | time=03/02/2026 01:44:29
+LEAVE | conf=ROIP_00 | caller=0001 | session=1770093869.0 | duration=8s | type=hangup
+JOIN | conf=ROIP_00 | caller=0001 | session=1770094595.0 | time=03/02/2026 01:56:35
+LEAVE | conf=ROIP_00 | caller=0001 | session=1770094595.0 | duration=3s | type=hangup
+JOIN | conf=ROIP_00 | caller=0001 | session=1770094877.0 | time=03/02/2026 02:01:17
+LEAVE | conf=ROIP_00 | caller=0001 | session=1770094877.0 | duration=2s | type=hangup
