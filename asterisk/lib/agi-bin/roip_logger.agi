@@ -3,6 +3,7 @@ import sys
 import time
 import json
 import os
+from datetime import datetime
 
 STATE_DIR = "/tmp/roip"
 LOG_FILE = "/var/log/asterisk/roip.log"
@@ -28,6 +29,7 @@ session_file = "{}/session_{}.json".format(STATE_DIR, session)
 
 # ---------- JOIN ----------
 if event == "join":
+    now = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     data = {
         "session": session,
         "conf": conf,
@@ -40,8 +42,8 @@ if event == "join":
     with open(session_file, "w") as f:
         json.dump(data, f)
 
-    log("JOIN | conf={} | caller={} | session={}".format(
-        conf, caller, session
+    log("JOIN | conf={} | caller={} | session={} | time={}".format(
+        conf, caller, session, now
     ))
 
 # ---------- LEAVE / HANGUP ----------

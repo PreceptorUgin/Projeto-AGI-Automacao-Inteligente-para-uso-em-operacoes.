@@ -2,7 +2,7 @@ from flask import Flask, render_template, jsonify
 import threading
 import time
 
-LOG_FILE = "/var/log/asterisk/full"
+LOG_FILE = "/var/log/asterisk/messages.log"
 
 class Server:
     def __init__(self):
